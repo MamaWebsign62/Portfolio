@@ -1,0 +1,137 @@
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+/*********************EXERCICE 5********************/
+h2 {
+    font-family: sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+img.floatleft {
+    float: left;
+    padding-right: 15px;
+}
+p{
+    text-align: justify;
+}
+#tiers {
+    width:30%;
+    float: right;
+    position:fixed;
+    top: 0;
+    right:0;
+}
+
+.lorem {
+    width:30%;
+    margin-top: 96px;
+}
+.lorem li {
+    list-style-type: none;
+    margin-bottom: 30px
+}
+.lorem li a {
+    text-decoration: none;
+    font-size: 19px;
+    color: cadetblue;
+}
+.menu {
+    display:block;
+    margin: 0 auto;
+    width: 800px;
+}
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+.menu li a {
+    color: #b2e4f0;
+    font-size: 30px;
+    text-decoration: none;
+}
+/*********************EXERCICE 1********************/
+h2 {
+    color: darkcyan;
+    font-size: 30px;
+    margin-top: 100px;
+}
+#ex1 {
+    overflow: hidden;
+}
+#ex1:hover {
+    overflow: visible;
+}
+/*********************EXERCICE 2********************/
+h3 {
+    text-decoration: underline;
+    font-size: 23px;
+}
+ul li {
+    list-style-type: disc;
+    font-size:1.5em;
+}
+a {
+    margin-left: 20px;
+}
+.lipuce li:nth-child(2), .lipuce li:nth-child(4) {
+    list-style-type: square;
+    color:limegreen;
+    font-size:1.5em;
+}
+/*********************EXERCICE 3********************/
+#body3 {
+    background-color: #222;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-shadow: 20px 25px grey;
+    margin-bottom: 150px;
+}
+#demi-text p {
+    color: #fff;
+    padding-left: 15px;
+    margin-top: 0;
+}
+/*********************EXERCICE 4********************/
+table {
+    border: 2px solid #C8AD7F;
+    border-collapse: collapse;
+        margin: 100px auto;
+}
+th, td, .impair, .pair {
+    color: #fff;
+    font-size: 30px;       
+}
+td {
+    width: 200px;
+    text-align: center;
+}
+thead {
+    background-color: dodgerblue;
+    font-weight: bold;
+    text-decoration: underline #fff;
+}
+.pair {
+    background-color: #C8AD7F;
+}
+.impair {
+    background-color: #fff;
+    
+}
+.td-impair {
+    color: #C8AD7F;
+}
+
+
+
+
+
+
+
+
+
+

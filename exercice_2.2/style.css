@@ -1,0 +1,145 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/***************nav menu***/
+nav {
+    margin-top: 50px;
+}
+.menu {
+    display:block;
+    margin: 0 auto;
+    width: 1000px
+}
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    width: 139px;
+}
+.menu li a {
+    color: #b2e4f0;
+    font-size: 24px;
+    text-decoration: none;
+}
+.menu li a:hover {
+    color:limegreen;
+}
+.menu li a:active {
+    color:red;
+}
+/****************général***/
+h1 {
+    color: darkcyan;
+    font-size: 30px;
+    margin: 100px 0;
+    text-decoration: underline;
+}
+/*************Exercice 5***/
+
+.linkbook {
+    text-decoration: none;
+    font-size: 24px;
+    border: 1px solid #b2e4f0;
+    padding: 5px 10px;
+    background-color: cadetblue;
+    color: #fff;
+}
+.ul-ex5 {
+    font-size: 25px;
+    margin-top: 50px;
+    color: limegreen;
+}
+.ul-ex5 li:first-child {
+    margin-top: 30px; 
+}
+.ul-ex5 li {
+    margin-left: 60px;
+}
+.ul-ex5 li a {
+    font-size: 18px; 
+    text-decoration: none;
+}
+.color-link {
+    color:cadetblue;
+}
+/*************Exercice 1***/
+.tri-paraf {
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 0 20px;
+}
+.tri-paraf p {
+    text-align: justify;
+}
+.tri-paraf > p:first-letter {
+    color: dodgerblue;
+    font-size: 30px;
+}
+.color-paraf {
+    color: #00CED1;
+}
+/*************Exercice 2***/
+.tri-link {
+    margin-right: 100px;
+    font-size: 25px;
+    text-decoration:none;
+}
+.simplon {
+    color: dodgerblue;
+}
+/*************Exercice 3***/
+.link-ext-rel {
+    margin: 0 auto;
+}
+.link-ext-rel a {
+    margin-right: 170px;
+    font-size: 20px;
+}
+/*************Exercice 4***/
+.exo4 {
+    border:3px solid #000;
+    width: 200px;
+    height: 150px;
+    margin-right: 30px;
+    display: inline-block;
+    background-color: #00CED1;
+}
+#mydiv {
+    background-color: #ff0;
+}
+/*************Exercice 6***/
+.ex6 {
+   border: 2px solid #000;
+}
+.ex6 tr {
+    height:50px;
+    display: block;
+ /*   border-bottom: 1px solid #000;*/
+}
+/*tr:last-child {
+    border: none;
+}*/
+.ex6 td {
+    width: 100px;
+    text-align: center;
+    line-height: 50px;
+ /*   border-right: 1px solid #000;*/
+}
+/*td:last-child {
+    border: none;
+}*/
+.ex6 tr:nth-child(3) td:nth-child(4) {
+    background-color: #00CED1;
+}
+/*************Exercice 7***/
+.checkerboard {
+    margin: 0 auto;
+    border: 2px solid #000;
+}
+.checkerboard tr {
+    height: 50px;
+}
+.checkerboard td {
+    width: 50px;
+}

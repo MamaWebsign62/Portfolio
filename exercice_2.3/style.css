@@ -1,0 +1,282 @@
+body {
+    
+}
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+h1 {
+    margin-bottom: 100px;
+    text-align: center;
+    color: rgba(255, 0, 127, 0.48);
+    text-decoration: underline;
+}
+nav {
+    margin-bottom: 100px;
+}
+nav ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 500px;
+}
+nav ul li {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+nav ul li:first-child {
+    margin-left: 25px;
+}
+nav ul li a {
+    color: darkcyan;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+nav ul li a:hover {
+    color: limegreen;
+}
+/*visage1************************************************/
+/**************************visage*/
+.visage1 {
+    margin: 0 auto;
+    width: 350px;
+    height: 390px;
+    background-color: #FFE4E1;
+    position: relative;
+}
+/***************************yeux*/
+.visage1 .eyes {
+    width: 100px;
+    height: 40px;
+    background-color: #000;
+    float: left;
+}
+.visage1 .eye1 {
+    margin: 130px 0 0 50px;
+}
+.visage1 .eyes2 {
+    margin: 130px 50px 0 0 ;
+}
+/***************************nez*/
+.visage1 .nose {
+    width: 35px;
+    height: 80px;
+    background-color: #000;
+    position: absolute;
+    top: 170px;
+    left: 157.5px;
+}
+/***************************bouche*/
+.visage1 .mouth {
+    width: 160px;
+    height: 28px;
+    background-color: #000;
+    position: absolute;
+    top: 290px;
+    left: 95px;
+}
+/*visage2************************************************/
+.visage2 {
+    margin: 0 auto;
+    width: 350px;
+    height: 450px;
+    background-color: #FFE4E1;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 95%;
+    border-bottom-right-radius: 95%;
+    position: relative;  
+}
+/***************************yeux*/
+.visage2 .eye1, .eye2 {
+    width: 100px;
+    height: 48px;
+    background-color: #000;
+    border-top-left-radius: 400%;
+    border-top-right-radius: 400%;
+    border-bottom-left-radius: 200%;
+    border-bottom-right-radius: 200%;
+    float: left;
+    margin-top: 150px;
+}
+.visage2 .eye1 {
+    margin-left: 50px;    
+}
+.visage2 .eye2 {
+    margin-left: 50px;    
+}
+/***************************nez*/
+.visage2 .nose {
+    width: 33px;
+    height: 100px;
+    background-color: #000;
+    border-top-left-radius: 600%;
+    border-top-right-radius: 600%;
+    position: absolute;
+    top: 200px;
+    left: 157.5px;
+}
+/***************************bouche*/
+.visage2 .mouth {
+    width: 150px;
+    height: 28px;
+    background-color: #000;
+    border-bottom-left-radius: 300%;
+    border-bottom-right-radius: 300%;
+    position: absolute;
+    top: 355px;
+    left: 95px;
+}
+
+
+/*visage3 animé************************************************/
+.visage3 {
+    margin: 0 auto;
+    width: 350px;
+    height: 450px;
+    background-color: #FFE4E1;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 95%;
+    border-bottom-right-radius: 95%;
+    position: relative;  
+}
+/***************************yeux*/
+.visage3 .eye1, .eye2 {
+    width: 100px;
+    height: 48px;
+    background-color: #000;
+    border-top-left-radius: 400%;
+    border-top-right-radius: 400%;
+    border-bottom-left-radius: 200%;
+    border-bottom-right-radius: 200%;
+    float: left;
+    margin-top: 150px;
+}
+.visage3 .eye1 {
+    margin-left: 50px;    
+}
+.visage3 .eye2 {
+    margin-left: 50px;
+    position: relative;
+}
+.visage3 .eye2:hover {
+    -webkit-animation: myeyemove 1s infinite; 
+    animation: myeyemove 1s infinite;
+     animation-direction: alternate; 
+        -webkit-animation-direction: alternate; 
+           -moz-animation-direction: alternate;                 -o-animation-direction: alternate; 
+}
+@keyframes animDirection { from {bottom:0;} to {top:-48px;} } 
+@-webkit-keyframes animDirection { from {bottom:0;} to {top:-48px;} } 
+@-moz-keyframes animDirection { from {bottom:0;} to {top:-48px;} } 
+@-o-keyframes animDirection { from {bottom:0;} to {top:-48px;} } 
+
+@-webkit-keyframes myeyemove {
+    0%   {height: 0;}
+    25%  {height: 12px;}
+    50%  {height: 24px;}
+    75%  {height: 36px;}
+    100% {height: 48px;}
+}
+@-webkit-keyframes myeyemove {
+    100% {height: -48px;}
+    75%  {height: -36px;}
+    50%  {height: -24px;}
+    25%  {height: -12px;}
+    0%   {height: 0px;}   
+}
+/***************************nez*/
+.visage3 .nose {
+    width: 35px;
+    height: 100px;
+    background-color: #000;
+    border-top-left-radius: 600%;
+    border-top-right-radius: 600%;
+    position: absolute;
+    top: 200px;
+    left: 157.5px;
+}
+@-webkit-keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+.rotating:hover {
+    background-color: blue;
+    -webkit-animation: rotating 0.5s linear alternate-reverse;
+}
+/***************************bouche*/
+.visage3 .mouth {
+    width: 150px;
+    height: 28px;
+    background-color: #000;
+    border-bottom-left-radius: 300%;
+    border-bottom-right-radius: 300%;
+    position: absolute;
+    top: 355px;
+    left: 95px;
+}
+.visage3 .mouth:hover {
+    -webkit-animation: mymove 1.5s infinite; 
+    animation: mymove 1.5s infinite;
+     animation-direction: alternate-reverse; 
+        -webkit-animation-direction: alternate-reverse; 
+           -moz-animation-direction: alternate-reverse;                         -o-animation-direction: alternate-reverse; 
+}
+@keyframes animDirection { from {top:0px;} to {bottom:280px;} } 
+@-webkit-keyframes animDirection { from {top:0px;} to {bottom:280px;} } 
+@-moz-keyframes animDirection { from {top:0px;} to {bottom:280px;} } 
+@-o-keyframes animDirection { from {top:0px;} to {bottom:280px;} } 
+
+@-webkit-keyframes mymove {
+    0%   {height: 0px;background-color:#ff0000;}
+    5%   {height: 5px;background-color:#ff0000;}
+    10%  {height: 10px;background-color:#ff0000;}
+    15%  {height: 15px;background-color:#ff0000;}
+    20%  {height: 20px;background-color:#ff0000;}
+    25%  {height: 25px;background-color:#ff0000;}
+    30%  {height: 30px;background-color:#ff0000;}
+    35%  {height: 35px;background-color:#ff0000;}
+    40%  {height: 40px;background-color:#ff0000;}
+    45%  {height: 45px;background-color:#ff0000;}
+    50%  {height: 50px;background-color:#ff0000;}
+    55%  {height: 55px;background-color:#ff0000;}
+    60%  {height: 60px;background-color:#ff0000;}
+    65%  {height: 65px;background-color:#ff0000;}
+    70%  {height: 70px;background-color:#ff0000;}
+    75%  {height: 75px;background-color:#ff0000;}
+    80%  {height: 80px;background-color:#ff0000;}
+    85%  {height: 85px;background-color:#ff0000;}
+    90%  {height: 90px;background-color:#ff0000;}
+    95%  {height: 95px;background-color:#ff0000;}
+    100% {height: 100px;background-color:#ff0000;}
+    
+@-webkit-keyframes mymoveretire {
+    100% {height: 100px;background-color:#ff0000;}
+    95%   {height: -95px;background-color:#ff0000;}
+    90%  {height: -90px;background-color:#ff0000;}
+    85%  {height: -85px;background-color:#ff0000;}
+    80%  {height: -80px;background-color:#ff0000;}
+    75%  {height: -75px;background-color:#ff0000;}
+    70%  {height: -70px;background-color:#ff0000;}
+    65%  {height: -65px;background-color:#ff0000;}
+    60%  {height: -60px;background-color:#ff0000;}
+    55%  {height: -55px;background-color:#ff0000;}   
+    50%  {height: -50px;background-color:#ff0000;}
+    45%  {height: -45px;background-color:#ff0000;}
+    40%  {height: -40px;background-color:#ff0000;}
+    35%  {height: -35px;background-color:#ff0000;}
+    30%  {height: -30px;background-color:#ff0000;}
+    25%  {height: -25px;background-color:#ff0000;}
+    20%  {height: -20px;background-color:#ff0000;}
+    15%  {height: -15px;background-color:#ff0000;}
+    10%  {height: -10px;background-color:#ff0000;}
+    5%   {height: -5px;background-color:#ff0000;}
+    0%   {height: 0px;background-color:#ff0000;}    
+}
