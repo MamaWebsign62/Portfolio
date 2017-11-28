@@ -1,0 +1,189 @@
+
+body {
+    background-color: lightgrey;
+    background-image: url(img/img_simplon.png);
+    height: auto;
+    background-repeat: repeat;
+    background-attachment: fixed;
+ /*   opacity: 0.20;*/
+    margin: 0;
+    padding: 0;
+}
+
+/****************EXERCICE 5*****************/
+.container {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #fff;
+    opacity: 0.8;
+}
+.container1 {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+/***DIV BG WHITE***/
+#bg_white {
+    width: 1200px;
+    height: auto;
+    background-color: #fff;
+    position: fixed;
+    opacity: 0.8;
+    top: 40%;
+    margin: 0 auto;
+}
+ul {
+    padding: 10px;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 230px;
+    height: 69px;
+    line-height: 100px;
+    border: 1px solid #00a6ce;
+}
+ul li:hover {
+    background-color: #00a6ce;
+}
+ul li a {
+    color: #00a6ce;
+    font-family: 'Arial';
+    text-decoration: none;
+    font-size: 26px;
+    margin-bottom: 0;
+    text-align: center;
+    line-height: 69px;
+    width: 230px;
+    height: 70px;
+}
+ul li a:hover {
+    color: #fff;
+}
+/****************EXERCICE 1*****************/
+.tri-box {
+    width: 200px;
+    height: 200px;
+}
+#box1, #box2, #box3 {
+    width: 200px;
+    float: left;
+}
+#box1, #box2 {
+    margin-right: 300px;
+}
+#box1 img{
+    width:200px;
+    height: 200px;
+    float: left;
+}
+img[Attributes Style] {
+    width: 50px;
+    height: 50px;
+}
+div#box2 {
+    display: flex;
+}
+#box2 img {
+    width: 100%;
+    height: 100%;
+}
+#box3 img {
+    width: 100%;
+    height: 100%;
+}
+/****************EXERCICE 2*****************/ 
+a#link {
+    margin: 0 auto;
+    width: 528px;
+    height: 213px;
+    margin-top: 500px;
+}
+/****************EXERCICE 3*****************/
+table {
+    margin-top: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-collapse: collapse;
+    border: 0px;
+}
+.impaire {
+    background-color: #000;
+    color: #fff;
+}     
+.paire {
+    background-color: #fff;
+}
+/****************EXERCICE 4*****************/
+#titre {
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkcyan;
+}
+nav {
+    width: 1200px;
+}
+nav ul li.ex4 {
+    margin-right: 238px;
+    margin-top: 500px;
+    border: 0 !important;
+}
+nav ul li.ex5 {
+  /*  margin-right: 238px;
+    margin-top: 500px;*/
+    border: 0 !important;
+}
+a {
+    display: block;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 80px;
+}
+#button1 {
+    background-color: #fff;
+    color: dodgerblue;
+    font-weight: bold;
+    text-align: center;
+    line-height: 72px;
+}
+#button1:hover {
+    background-color: dodgerblue;
+    color: #fff;
+}
+#button2 {
+    background-color: #fff;
+    color: dodgerblue;
+    font-weight: bold;
+    text-align: center;
+    line-height: 72px;
+}
+#button2:active {
+    background-color: dodgerblue;
+    color: #fff;
+}
+#button3 {
+    background-color: #fff;
+    color: dodgerblue;
+    font-weight: bold;
+    text-align: center;
+    line-height: 72px;
+}
+#button3:hover {
+    background-color: cadetblue;
+    background-image: linear-gradient( white, rgba(255,255,255,0));
+    color: #fff;
+    transition: background-color 1s;
+}
+#button3:active {
+    background-color: blue;
+    color: #fff;
+}
+
